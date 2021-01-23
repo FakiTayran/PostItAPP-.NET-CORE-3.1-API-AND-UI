@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotDefteriApiv1", "NotDefteriApiv1\NotDefteriApiv1.csproj", "{1A29C9DF-750E-412A-BAEB-AC22F3D29E81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotDefteriUI", "NotDefteriUI", "{3E012673-9FD2-40C8-8117-DA9BEB89CCAC}"
+	ProjectSection(SolutionItems) = preProject
+		NotDefteriUI\css\index.css = NotDefteriUI\css\index.css
+		NotDefteriUI\index.html = NotDefteriUI\index.html
+		NotDefteriUI\js\index.js = NotDefteriUI\js\index.js
+		NotDefteriUI\css\login.css = NotDefteriUI\css\login.css
+		NotDefteriUI\login.html = NotDefteriUI\login.html
+		NotDefteriUI\css\login2.css = NotDefteriUI\css\login2.css
+		NotDefteriUI\login2.html = NotDefteriUI\login2.html
+		NotDefteriUI\js\login2.js = NotDefteriUI\js\login2.js
+		NotDefteriUI\img\notebook.png = NotDefteriUI\img\notebook.png
+		NotDefteriUI\js\script.js = NotDefteriUI\js\script.js
+		NotDefteriUI\img\wall_brick_texture_142032_1920x1080.jpg = NotDefteriUI\img\wall_brick_texture_142032_1920x1080.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A29C9DF-750E-412A-BAEB-AC22F3D29E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A29C9DF-750E-412A-BAEB-AC22F3D29E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A29C9DF-750E-412A-BAEB-AC22F3D29E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A29C9DF-750E-412A-BAEB-AC22F3D29E81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {684C4213-BE37-4FB1-B599-66C1E372525C}
+	EndGlobalSection
+EndGlobal
