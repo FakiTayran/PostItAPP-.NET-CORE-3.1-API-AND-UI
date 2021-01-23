@@ -10,7 +10,11 @@ namespace NotDefteriApiv1.Models
     public class NotDefteri
     {
         public int Id { get; set; }
+
+        [ForeignKey("AppUser")]
         public DateTime? Time { get; set; }
         public string Icerik { get; set; }
+
+        public string UserId { get; set; }
     }
 }

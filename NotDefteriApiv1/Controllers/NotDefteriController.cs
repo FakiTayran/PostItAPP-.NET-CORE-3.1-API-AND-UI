@@ -33,7 +33,7 @@ namespace NotDefteriApiv1.Controllers
             var identity = (ClaimsIdentity)User.Identity;
             var email = identity.FindFirst(ClaimTypes.Email).Value;
             AppUser user = await _context.AppUsers.FirstOrDefaultAsync(x => x.Email == email);
-            return await _context.NotDefteris.ToListAsync();
+            return await _context.NotDefteris.Where(x => x.UserId == user.Id).ToListAsync();
         }
 
         // GET: api/NotDefteri/5
@@ -96,6 +96,7 @@ namespace NotDefteriApiv1.Controllers
             var identity = (ClaimsIdentity)User.Identity;
             var email = identity.FindFirst(ClaimTypes.Email).Value;
             AppUser user = await _context.AppUsers.FirstOrDefaultAsync(x => x.Email == email);
+            notDefteri.UserId = user.Id;
             await _context.AddAsync(notDefteri);
             await _context.SaveChangesAsync();
 

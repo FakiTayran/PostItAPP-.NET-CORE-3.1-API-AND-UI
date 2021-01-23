@@ -7,17 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotDefteriApiv1", "NotDefte
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotDefteriUI", "NotDefteriUI", "{3E012673-9FD2-40C8-8117-DA9BEB89CCAC}"
 	ProjectSection(SolutionItems) = preProject
-		NotDefteriUI\css\index.css = NotDefteriUI\css\index.css
-		NotDefteriUI\index.html = NotDefteriUI\index.html
-		NotDefteriUI\js\index.js = NotDefteriUI\js\index.js
-		NotDefteriUI\css\login.css = NotDefteriUI\css\login.css
-		NotDefteriUI\login.html = NotDefteriUI\login.html
-		NotDefteriUI\css\login2.css = NotDefteriUI\css\login2.css
-		NotDefteriUI\login2.html = NotDefteriUI\login2.html
-		NotDefteriUI\js\login2.js = NotDefteriUI\js\login2.js
-		NotDefteriUI\img\notebook.png = NotDefteriUI\img\notebook.png
-		NotDefteriUI\js\script.js = NotDefteriUI\js\script.js
-		NotDefteriUI\img\wall_brick_texture_142032_1920x1080.jpg = NotDefteriUI\img\wall_brick_texture_142032_1920x1080.jpg
+		..\..\..\source\repos\NotDefteriApi\NotDefteriUI\css\index.css = ..\..\..\source\repos\NotDefteriApi\NotDefteriUI\css\index.css
+		..\..\..\source\repos\NotDefteriApi\NotDefteriUI\index.html = ..\..\..\source\repos\NotDefteriApi\NotDefteriUI\index.html
+		..\..\..\source\repos\NotDefteriApi\NotDefteriUI\js\index.js = ..\..\..\source\repos\NotDefteriApi\NotDefteriUI\js\index.js
+		..\..\..\source\repos\NotDefteriApi\NotDefteriUI\css\login.css = ..\..\..\source\repos\NotDefteriApi\NotDefteriUI\css\login.css
+		..\..\..\source\repos\NotDefteriApi\NotDefteriUI\login.html = ..\..\..\source\repos\NotDefteriApi\NotDefteriUI\login.html
+		..\..\..\source\repos\NotDefteriApi\NotDefteriUI\js\login2.js = ..\..\..\source\repos\NotDefteriApi\NotDefteriUI\js\login2.js
+		..\..\..\source\repos\NotDefteriApi\NotDefteriUI\img\notebook.png = ..\..\..\source\repos\NotDefteriApi\NotDefteriUI\img\notebook.png
+		..\..\..\source\repos\NotDefteriApi\NotDefteriUI\js\script.js = ..\..\..\source\repos\NotDefteriApi\NotDefteriUI\js\script.js
+		..\..\..\source\repos\NotDefteriApi\NotDefteriUI\img\wall_brick_texture_142032_1920x1080.jpg = ..\..\..\source\repos\NotDefteriApi\NotDefteriUI\img\wall_brick_texture_142032_1920x1080.jpg
 	EndProjectSection
 EndProject
 Global
